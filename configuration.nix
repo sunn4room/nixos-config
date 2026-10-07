@@ -11,6 +11,7 @@
   disko.devices.disk.main.content.partitions.ESP.content.type = "filesystem";
   disko.devices.disk.main.content.partitions.ESP.content.format = "vfat";
   disko.devices.disk.main.content.partitions.ESP.content.mountpoint = "/boot";
+  disko.devices.disk.main.content.partitions.ESP.content.mountOptions = [ "umask=0077" ];
   disko.devices.disk.main.content.partitions.root.size = "100%";
   disko.devices.disk.main.content.partitions.root.content.type = "filesystem";
   disko.devices.disk.main.content.partitions.root.content.format = "ext4";
