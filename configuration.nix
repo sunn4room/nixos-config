@@ -23,6 +23,7 @@
   environment.systemPackages = with pkgs; [
     vis
     wget
+    git
   ];
   services.openssh.enable = true;
 }
