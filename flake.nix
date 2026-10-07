@@ -12,5 +12,6 @@
         ./configuration.nix
       ];
     };
+    packages = inputs.disko.packages;
   };
 }
